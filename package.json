@@ -1,0 +1,37 @@
+{
+  "name": "@oneramp/sdk",
+  "version": "1.0.0",
+  "description": "OneRamp is a utility package that helps facilitate token offramps and oneramps in various blockchain networks.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "test": "yarn run test:unit",
+    "test:unit": "jest --verbose --passWithNoTests --forceExit",
+    "watch": "tsc -w"
+  },
+  "files": [
+    "lib",
+    "!*.test.js",
+    "!*.test.js.map",
+    "!*.test.d.ts",
+    "!*__mocks__"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "ethers": "^6.7.1"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "easy-currencies": "^1.7.0",
+    "utf-8-validate": "^6.0.3"
+  }
+}
