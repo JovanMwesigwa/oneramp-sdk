@@ -39,7 +39,7 @@ const addresses: IfcAddresses = {
     dai: "0xC435B79FD4819CC1a81c696182439cEEa7E65c9A",
   },
   mumbai: {
-    contract: "0x9CCC5B8A082bC9A1fA7Cb9338B93828Cd8e37FBA",
+    contract: "0xd0a75B3e7d50683b7941b4f14Ce5F4e38B498892",
     usdt: "0xB3c6eEdd57E4eE14D1fbC0877fBa749F8c436991",
     stable: "0x758a8a69c682449DDEA8A67e25257bfa4138824e",
     dai: "0xb3D4f37dBedCbb4f91C61424a61fb85c7724914b",
